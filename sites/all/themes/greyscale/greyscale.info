@@ -1,0 +1,50 @@
+
+screenshot  = screenshot.jpg
+name        = greyscale
+description = 六段锦商业模板,html和css由网络下载！本模板只支持学习和研究使用,暂不提供商业用途，敬请谅解!
+
+core        = 7.x
+base theme  = zen
+
+
+
+stylesheets[all][] = style.css
+scripts[] = js/custom.js
+scripts[] = js/addon.js
+
+regions[topBanner]      = topBanner
+regions[topnav]     	= topnav
+regions[mainmenu]		= Mainmenu
+regions[highlighted]    = Highlighted
+regions[slideshow]      = slideshow
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[zen_breadcrumb]           = yes
+settings[zen_breadcrumb_separator] = ' ? '
+settings[zen_breadcrumb_home]      = 1
+settings[zen_breadcrumb_trailing]  = 1
+settings[zen_breadcrumb_title]     = 0
+settings[zen_skip_link_anchor]     = main-menu
+settings[zen_skip_link_text]       = Jump to navigation
+settings[zen_html5_respond_meta][] = respond
+settings[zen_html5_respond_meta][] = html5
+settings[zen_html5_respond_meta][] = meta
+settings[zen_rebuild_registry]     = 1
+settings[zen_wireframes]           = 0
